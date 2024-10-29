@@ -4,7 +4,7 @@
  <br>
  <h3>Requirements:</h3>
  <ol>
- <li>Fetch a list of users from the API endpoint:<a>https://jsonplaceholder.typicode.com/users</a>.</li>
+ <li>Fetch a list of users from the API endpoint: <a>https://jsonplaceholder.typicode.com/users</a>.</li>
  <li>Display the user data in a card-based layout on desktop and a single-column list on mobile.</li>
  <li>Include search functionality to filter users by name or username.</li>
  <li>Implement sorting options (by name and by username).</li>
