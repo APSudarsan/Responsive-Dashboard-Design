@@ -40,14 +40,14 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-8">
       <div className="flex justify-end items-center mb-6">
         <div className="relative">
           <SearchIcon className="absolute left-3 top-2.5 h-5 w-5 text-gray-400" />
           <input
             type="text"
             placeholder="Search by username or name"
-            className="border rounded-lg px-4 py-2 pl-10 w-full max-w-sm shadow-sm"
+            className="border rounded-lg px-4 py-2 pl-10 w-full max-w-sm"
             value={searchTerm}
             onChange={(e) => handleSearch(e.target.value)}
           />

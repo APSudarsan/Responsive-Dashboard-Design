@@ -20,6 +20,9 @@ const App = () => {
       <main className="container mx-auto p-4 pb-16">
         <Dashboard />
       </main>
+      <footer className="text-center mt-6 text-gray-500 pb-6">
+        Designed and Developed by <a href ="https://github.com/APSudarsan/" className="font-semibold">Sudarsan</a>
+      </footer>
     </div>
   );
 };
